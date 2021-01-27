@@ -59,8 +59,36 @@ text-decoration: strong;
   display: inline-block;
   font-size: 14px;
   
+}
+
+a.square-links 
+{ 
+  background-color: #585858;
+  color: black;
+  border: 3px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 0px 4px;
 
 } 
+
+a.square-links:hover
+{
+    background-color: #386c38;
+}
+
+.auto-style5 {
+            color: #000000;
+      font-size: 21px;
+      word-wrap: true;
+      padding-left:7em; 
+      margin-right: 12em;
+      margin-left: 12em;   
+         
+        }
   
 
 
