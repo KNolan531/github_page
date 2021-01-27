@@ -90,6 +90,58 @@ a.square-links:hover
          
         }
   
+img.img3 { 
 
+ height: 400px; 
+ width: 400px; 
+ margin-right: 22em;
+ margin-top: 5em;  
+ border: solid black; 
+ border: 5px solid black ;   
+ align: center; 
+}
+
+.auto-style4 {
+      color: #000000;
+      font-size: 21px;
+      word-wrap: true;
+      margin-right: -6em;  
+      padding-left:6px;    
+      }
+
+
+ table.t3 { 
+position: relative; 
+margin-top: 8em; 
+margin-right: 17em;  
+padding: 0px 0px 0px 60px;
+
+}
+
+
+.img1 { 
+
+ height: 500px; 
+ width: 500px; 
+ position: relative; 
+ margin-top: 5em;
+ margin-bottom: 5em;
+ left: 5em;
+ border: solid black; 
+ border: 5px solid black ;  
+ border-spacing: 5em;
+}
+
+.ul1 {
+      color: #000000;
+      font-size: 21px;
+      word-wrap: true;
+      }
+
+u.ulist { 
+      color: #000000;
+      font-size: 21px;
+      word-wrap: true;    
+        } 
 
 
