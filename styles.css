@@ -145,3 +145,39 @@ u.ulist {
         } 
 
 
+button.square-links 
+{ 
+  background-color: #585858;
+  color: black;
+  border: 3px solid black;
+  padding: 8px 14px;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+    box-shadow: 0px 2px;
+
+}
+
+button.square-links:hover
+{
+    background-color: #386c38;
+}
+
+input[type=text] {
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 80%;
+  padding: 12px 5px;
+ 
+} 
+
+.hr1 { 
+  color: black; 
+  border: 7px dotted; 
+  border-bottom: none;
+  margin: 50px auto 50px auto;
+  width: 40%;
+
+ }
