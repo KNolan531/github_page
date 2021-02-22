@@ -16,7 +16,6 @@ h2 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
 
-
 }
 
 footer {
@@ -87,4 +86,26 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+a.square-links
+{
+  background-color: #585858;
+  color: white;
+  border: 3px solid black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 0px 4px black;
+  display: inline-block;
+  margin-right: 117rem;
+
+
+
+}
+
+a.square-links:hover
+{
+    background-color: #283149;
 }
