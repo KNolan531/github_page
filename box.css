@@ -1,0 +1,133 @@
+.updateBox {
+    background: #585858;
+    border-radius: 8px;
+    border: solid black; 
+    box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.651);
+    padding: 4px;
+    width: 340px;       
+    
+  }
+
+  
+
+  .mainBox {
+    background: #585858;
+    border-radius: 8px;
+    border: solid black; 
+    box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.651);
+    padding: 8px;
+    width: 1500px;
+    height: 900px; 
+    word-wrap:break-word; 
+    text-align: left; 
+    float: left; 
+        
+    }
+
+    .ptext { 
+        margin-left: 5em; 
+        text-align: left; 
+    }
+
+  
+
+  
+
+.container { 
+    margin-left: 15em; 
+    margin-top: 3em;  
+
+}
+
+.container2 { 
+
+    margin-left: 14em; 
+}
+
+  .contentBox {
+    background: #585858;
+    border-radius: 8px;
+    border: solid black; 
+    box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.651);
+    padding-top:16px;     
+    margin-left: 18px; 
+    width: 360px; 
+    
+    display: inline-block; 
+
+  }
+
+  .contentBox2 { 
+    background: #585858;
+    border-radius: 8px;
+    border: solid black; 
+    box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.651);
+    padding-top:16px;  
+    padding-bottom: 16px;  
+    padding-left: 20px; 
+    padding-right: 20px;   
+    margin-left: 22px; 
+    width: 750px;     
+    display: inline-block; 
+
+
+  }
+
+  .contentBox3 { 
+    background: #585858;
+    border-radius: 8px;
+    border: solid black; 
+    box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.651);
+    padding-top:16px;  
+    padding-bottom: 16px;  
+    padding-left: 20px; 
+    padding-right: 20px;   
+    margin-left: 22px; 
+    width: 950px;     
+    display: inline-block; 
+
+
+  }
+
+  .p2 { 
+    margin-left:-2em ;
+    text-align: left;  
+  }
+  
+  .boxHeading {
+    font-size: 1.2em;
+    margin-bottom: 6px;
+    text-align: center; 
+    font-family: Arial; 
+  }
+  .box1 p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .notepad { 
+    width: 100%;
+      height: auto;
+      min-height: 1500px;
+      max-width: 1800px;
+      min-width: 340px;
+      background: #585858;
+      border-radius: 8px;
+      border: solid black; 
+      box-shadow: 5px 5px 5px rgba(27, 27, 27, 0.651);
+      padding: 1rem;
+      box-sizing: border-box;
+      text-align: left; 
+      word-wrap:break-word; 
+      font-size: 20px;  
+      margin-top: 10px; 
+      margin-left: 10px;  
+      color: black; 
+      
+
+
+      }
+
+      

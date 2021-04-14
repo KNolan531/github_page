@@ -1,5 +1,26 @@
-body { 
-background-color: #386c38; 
+body {
+  margin: 0;
+  background-color: rgb(9, 95, 9);
+      
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.titleHeading { 
+  color: black; 
+  text-align: center;  
+  text-shadow: 3px 4px green;
+  font-family: Times New Roman; 
+  font-size: 4em; 
+  text-decoration: strong; 
+  margin: 14px;  
+  position: sticky;  
+  
 }
 
 .ptext { 
@@ -63,7 +84,7 @@ text-decoration: strong;
 
 a.square-links 
 { 
-  background-color: #585858;
+  background-color: rgb(9, 95, 9);
   color: black;
   border: 3px solid black;
   padding: 10px 20px;
@@ -77,7 +98,8 @@ a.square-links
 
 a.square-links:hover
 {
-    background-color: #386c38;
+    background-color: #585858;
+    
 }
 
 .auto-style5 {
@@ -94,11 +116,11 @@ img.img3 {
 
  height: 400px; 
  width: 400px; 
- margin-right: 22em;
+ margin-right: 14em;
  margin-top: 5em;  
  border: solid black; 
  border: 5px solid black ;   
- align: center; 
+ 
 }
 
 .auto-style4 {
@@ -111,11 +133,16 @@ img.img3 {
 
 
  table.t3 { 
-position: relative; 
-margin-top: 8em; 
-margin-right: 17em;  
-padding: 0px 0px 0px 60px;
 
+margin-top: 7em; 
+margin-right: 18em;  
+
+
+}
+
+.t4 { 
+
+  margin-left: 3em; 
 }
 
 
@@ -124,9 +151,9 @@ padding: 0px 0px 0px 60px;
  height: 500px; 
  width: 500px; 
  position: relative; 
- margin-top: 5em;
+ margin-top: 8em;
  margin-bottom: 5em;
- left: 5em;
+ left: 3em;
  border: solid black; 
  border: 5px solid black ;  
  border-spacing: 5em;
@@ -147,7 +174,7 @@ u.ulist {
 
 button.square-links 
 { 
-  background-color: #585858;
+  background-color: rgb(9, 95, 9);
   color: black;
   border: 3px solid black;
   padding: 8px 14px;
@@ -162,7 +189,7 @@ button.square-links
 
 button.square-links:hover
 {
-    background-color: #386c38;
+    background-color: #585858;
 }
 
 input[type=text] {

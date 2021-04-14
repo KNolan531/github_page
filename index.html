@@ -5,64 +5,93 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <link
+      href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="box.css">
 
     <title>Kev's Github Page</title>
   </head>
   <body>
-    <div style="text-align: center">
-            <h1 class="h1nav"><p class="fw-bolder"> &emsp;<STRONG> Kev&#39;s Github Page </STRONG></p> </h1>
-        </div>
-  
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light border border-dark border-4" style="background-color:#585858"> 
-    <div class="container-fluid">
-	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-	<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-     <UL class="nav navbar-nav "> 
-        <LI class="navitem px-4"> <a class="nav-link links-hover" href="index.html"><span class="s2"><STRONG>- Home -</STRONG> </span> </a> </LI>        
-        <LI class="navitem px-3"> <a class="nav-link links-hover" href="ipassign.html"><span class="s2"><STRONG>- Internet Programming Assignments -</STRONG> </span> </a> </LI>
-        <LI class="navitem px-3"> <a class="nav-link links-hover" href="sweproj.html"><span class="s2"><STRONG>- Pizza Order System Project -</STRONG> </span> </a> </LI>
-        <LI class="navitem px-3"> <a class="nav-link links-hover" href="robot.html"><span class="s2"><STRONG>- Robot Prototype Project - </STRONG> </span></a> </LI>
-        <LI class="navitem px-3"> <a class="nav-link links-hover" href="http://www.linkedin.com/in/kevin-nolan-bb4bab1b5/"><span class="s2"><STRONG>- LinkedIn Page -</STRONG> </span> </a> </LI>
-        <LI class="navitem px-3"> <a class="nav-link links-hover" href="aboutme.html"><span class="s2"><STRONG>- About Me -</STRONG> </span> </a> </LI>
+    <h1 class="titleHeading"><STRONG> Kev&#39;s Github Page </STRONG> </h1>
+    <nav class="navbar">            
+          <div class="navbar-container">            
+            <ul class="nav-menu">              
+              <li class="nav-item"><a href ="index.html" class="nav-links">
+                  <strong>Home</strong></a></li>                    
+              <li class="nav-item"><a href ="ipassign.html" class="nav-links">  
+                  <strong>Web Programming</strong></a></li>
+              <li class="nav-item"><a href ="swe.html" class="nav-links">
+                  <strong>Software Engineering</strong></a></li>
+              <li class="nav-item"><a href ="webapps.html" class="nav-links">
+                  <strong>Web Apps</strong></a></li>
+               <li class="nav-item"><a href ="swetest.html" class="nav-links">
+                  <strong>Software Testing </strong></a></li>                
+              <li class="nav-item"><a href ="csproj.html" class="nav-links">
+                 <strong>CS Projects</strong></a></li>
+              <li class="nav-item"><a href ="aboutme.html" class="nav-links">
+                  <strong>About Me</strong></a></li>              
+            </ul>
+          </div> 
+        </nav>    
+
+
+  <div><center><div class="notepad"><CENTER><div class="updateBox"> 
+    <h1 class="boxHeading"><u><strong>Latest Update:</strong></u> </h1> 
+    <p>Updated on 4/12/21 with new themed layout and navbar using CSS. Some pages still in process of being updated. </p>
+    </div></CENTER><br />
+    <h2><center><strong>Welcome to my Github Portfolio Page!</strong></center></h2>
+    <p class="ptext"> This github website will serve as portfolio of all the various projects and assignments I have worked on and/or completed during my time at Kennesaw State. It was built using various html, css and javascript capabilities. 
+      All designs are my own and my goal is to add more interactive elements to this site itself as time permits.</p>
         
-    </UL></div> </div>
+        <p class="ptext">The links on the navbar will be updated as new projects are added. The update box above will display the most recent date that something has been added and a short description. </p> 
+        <p class="ptext"> Listed below are a few short descriptions of the links included in the Navbar and some short details on each. These will be updated as more are added. </p>
+        <div class="container">
+        <div class="contentBox">     
+        <h1 class="boxHeading"><u><strong>Web Programming</strong></u> </h1> 
+         <center>This section contains various web programming based assignments I have completed. <p />They include simple javscript functions, python server calls, jquery and more.  </center>
+        </div>
+        <div class="contentBox"> 
+        <h1 class="boxHeading"><u><strong>Software Engineering</strong></u> </h1> 
+         <center>This section contains various projects and assignments I have worked on related to Software Engineering concepts. <p />They include Software Process,Architecture,Requirements and Prototyping. UML diagrams, requirement documents and digital prototypes are included. </p></center>
+        </div> 
+       <div class="contentBox"> 
+        <h1 class="boxHeading"><u><strong>Web Apps </strong></u> </h1> 
+         <center>This section contains various web apps I have worked on either as a school project or indepedent work.  <p>They are usually deployed on either github,heroku or vercel. They include nodejs, nodejs with express and react. </p> </center>
+        </div></div>
+        <div class="container"> <div class="contentBox"> 
+        <h1 class="boxHeading"><u><strong>Software Testing </strong></u> </h1> 
+        <center>This section contains various assignments and code used in my Software Testing Course. <p>This section includes test cases documentation, junit screens and a final project. </p> </center>
+        </div> 
+        <div class="contentBox"> 
+          <h1 class="boxHeading"><u><strong>CS Projects </strong></u> </h1> 
+           <center>A section dedicated to Java and C++ projects and assignments completed during my CS oriented classes.<p>Included in this section are basic java assignments that incorporate fundamental OOP concepts. As well as data structures assignments using C++. </p> </center>
+          </div> 
+        <div class="contentBox"> 
+          <h1 class="boxHeading"><u><strong>About Me </strong></u> </h1> 
+           <center>A short bio,pictures and list of my interests. Nothing too in depth or involved.<p>This was included just for fun and is not to be used without my permission. </p> </center>
+          </div> 
+        
+        </div>
+      
+      
+      
+      </div>     
+              
+     </center>
+    
 
-</nav>
-<BR><BR>
-<CENTER><div class="square-text" align="center"> 
-<p> <STRONG> <U> Latest Update: </U></STRONG> <BR><STRONG>3/15/2021</STRONG>. 
-  </div></CENTER><BR>
-<h2 class ="h2a"> Welcome to my Github Portfolio! </h2> 
-
-
-<BR>
-<div class ="text-wrap">
-<p class ="ptext "> <STRONG>This page will serve as portfolio of all the various projects and assignments I have worked on and/or completed during my time at Kennesaw State. <BR><BR>The links above will be continually updated as new projects are added. The update box above will display the most recent update to this page. </STRONG></p></div>
-<BR><BR> 
- 
-
-
-  <h2 class="h2a" >Project Links </h2> <BR>
-            <div><p class = "ptext" align = "middle">
-                Listed below are the various links provided on the navbar and a short description of what each link points to.   </p></div><BR><BR>
-            <div> 
-                <CENTER><p class="ptext" align = "middle"><STRONG><U>Internet Programming Assignments</U></STRONG><BR><BR> These were javascript/web assignments and projects completed my time at KSU. They include basic javascript,python, jquery, node and more. <BR>Some Javascript assignments are implemented directly on the website while others are linked to an external page.  </p></div><BR></CENTER>
-
-<CENTER><p class="ptext" align = "middle"><STRONG><U>Pizza Order System Project</STRONG></U><BR><BR> This was a C# implemented project that followed the Software Engineering design and planning phases.<BR> Documentation, Video and final code is included.  </p></div><BR></CENTER>
-
-<CENTER><p class="ptext" align = "middle"><STRONG><U>Robot Prototype Project</STRONG></U><BR><BR> This was a prototyping project that was created during User Centered Design course.<BR> It was implemented with a prototyping tool called Marvel.  </p></div><BR></CENTER>
-
-<CENTER><p class="ptext" align = "middle"><STRONG><U>Accounting Web App (Senior Class)</STRONG></U> <em> COMING SOON </em><BR><BR> This is an accounting web app created during my Senior semester I am currently working on at KSU with a team. It will be added/updated once progress has been made.  </p></div><BR></CENTER> <BR><BR>
+   </div>
 
     
 
   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+   
 
   </body>
 </html>
